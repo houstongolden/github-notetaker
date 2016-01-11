@@ -62,6 +62,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	// require('./stylesheets/main.css');
+
 	_reactDom2.default.render(_react2.default.createElement(
 	  _reactRouter.Router,
 	  null,
@@ -24130,6 +24132,15 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'col-sm-12' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'center' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Gitrr'
+	          )
+	        ),
 	        _react2.default.createElement(
 	          'form',
 	          { onSubmit: function onSubmit() {
