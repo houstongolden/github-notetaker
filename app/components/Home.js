@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Home () {
   return (
-    <h2 className="text-center">
-      Search By Github Username Above
-    </h2>
+    <h1 className="text-center">
+      Search for any Github profile Above and Leave Notes to the Developer with Ease!
+    </h1>
   )
 }

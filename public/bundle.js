@@ -24203,9 +24203,9 @@
 
 	function Home() {
 	  return _react2.default.createElement(
-	    "h2",
+	    "h1",
 	    { className: "text-center" },
-	    "Search By Github Username Above"
+	    "Search for any Github profile Above and Leave Notes to the Developer with Ease!"
 	  );
 	}
 
