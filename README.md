@@ -1,6 +1,6 @@
-# github-notetaker-egghead
+# github-notetaker
 
-[Build Your First React App](https://egghead.io/series/build-your-first-react-js-application) is an egghead lesson series.
+Gitrr is a simple ReactJS app for pulling Github profiles and making notes on peoples profile pages.
 
 ### Instructions
 

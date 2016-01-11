@@ -5,7 +5,7 @@ import Notes from './Notes/Notes';
 import getGithubInfo from '../utils/helpers';
 import Rebase from 're-base';
 
-const base = Rebase.createClass('https://github-note-taker.firebaseio.com/')
+const base = Rebase.createClass('https://github-notetaker-1.firebaseio.com/')
 
 class Profile extends React.Component {
   constructor(props){
