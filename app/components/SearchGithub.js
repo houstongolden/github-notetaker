@@ -13,8 +13,8 @@ class SearchGithub extends React.Component {
   render(){
     return (
       <div className="col-sm-12">
-        <div className="center"><h1>Gitrr</h1></div>
-        <form onSubmit={() => this.handleSubmit()}>
+      <div className="center" style={logoStyle}>Gitrr</div>
+        <form onSubmit={() => this.handleSubmit()} style={searchStyle}>
           <div className="form-group col-sm-7">
             <input type="text" className="form-control" ref={(ref) => this.getRef(ref)} />
           </div>
@@ -29,6 +29,18 @@ class SearchGithub extends React.Component {
 
 SearchGithub.PropTypes = {
   history: React.PropTypes.object.isRequired
+}
+
+var logoStyle = {
+  color: 'black',
+  fontSize: '50px',
+  marginLeft: '-100px',
+  marginTop: '-15px'
+};
+
+var searchStyle = {
+  marginLeft: '112px',
+  marginTop: '-47px'
 }
 
 export default SearchGithub;

@@ -24134,18 +24134,14 @@
 	        { className: 'col-sm-12' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'center' },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            'Gitrr'
-	          )
+	          { className: 'center', style: logoStyle },
+	          'Gitrr'
 	        ),
 	        _react2.default.createElement(
 	          'form',
 	          { onSubmit: function onSubmit() {
 	              return _this2.handleSubmit();
-	            } },
+	            }, style: searchStyle },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'form-group col-sm-7' },
@@ -24172,6 +24168,18 @@
 
 	SearchGithub.PropTypes = {
 	  history: _react2.default.PropTypes.object.isRequired
+	};
+
+	var logoStyle = {
+	  color: 'black',
+	  fontSize: '50px',
+	  marginLeft: '-100px',
+	  marginTop: '-15px'
+	};
+
+	var searchStyle = {
+	  marginLeft: '112px',
+	  marginTop: '-47px'
 	};
 
 	exports.default = SearchGithub;
